@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A7FCD78A2AF83A98005081EF /* UberSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */; };
-		A7FCD78C2AF83A98005081EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD78B2AF83A98005081EF /* ContentView.swift */; };
 		A7FCD78E2AF83A9C005081EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD78D2AF83A9C005081EF /* Assets.xcassets */; };
 		A7FCD7912AF83A9C005081EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD7902AF83A9C005081EF /* Preview Assets.xcassets */; };
+		A7FCD79F2AF84626005081EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD79E2AF84626005081EF /* HomeView.swift */; };
+		A7FCD7A12AF847AA005081EF /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD7A02AF847AA005081EF /* UberMapViewRepresentable.swift */; };
+		A7FCD7A32AF85194005081EF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD7A22AF85194005081EF /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7FCD7862AF83A98005081EF /* UberSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberSwiftUITutorialApp.swift; sourceTree = "<group>"; };
-		A7FCD78B2AF83A98005081EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7FCD78D2AF83A9C005081EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7FCD7902AF83A9C005081EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7FCD79E2AF84626005081EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A7FCD7A02AF847AA005081EF /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		A7FCD7A22AF85194005081EF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		A7FCD7882AF83A98005081EF /* UberSwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
-				A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */,
-				A7FCD78B2AF83A98005081EF /* ContentView.swift */,
+				A7FCD79B2AF8452E005081EF /* App */,
+				A7FCD79A2AF8452C005081EF /* Core */,
+				A7FCD7992AF84529005081EF /* Extensions */,
+				A7FCD7982AF84527005081EF /* Managers */,
+				A7FCD7972AF84515005081EF /* Models */,
 				A7FCD78D2AF83A9C005081EF /* Assets.xcassets */,
 				A7FCD78F2AF83A9C005081EF /* Preview Content */,
 			);
@@ -65,6 +72,61 @@
 				A7FCD7902AF83A9C005081EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7FCD7972AF84515005081EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7FCD7982AF84527005081EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCD7A22AF85194005081EF /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A7FCD7992AF84529005081EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7FCD79A2AF8452C005081EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCD79D2AF845CF005081EF /* ViewModel */,
+				A7FCD79C2AF845CC005081EF /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A7FCD79B2AF8452E005081EF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7FCD79C2AF845CC005081EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCD79E2AF84626005081EF /* HomeView.swift */,
+				A7FCD7A02AF847AA005081EF /* UberMapViewRepresentable.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7FCD79D2AF845CF005081EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FCD78C2AF83A98005081EF /* ContentView.swift in Sources */,
+				A7FCD7A32AF85194005081EF /* LocationManager.swift in Sources */,
 				A7FCD78A2AF83A98005081EF /* UberSwiftUITutorialApp.swift in Sources */,
+				A7FCD7A12AF847AA005081EF /* UberMapViewRepresentable.swift in Sources */,
+				A7FCD79F2AF84626005081EF /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +333,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UberSwiftUITutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow us to acces your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +363,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UberSwiftUITutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow us to acces your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
