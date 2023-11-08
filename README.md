@@ -106,6 +106,23 @@ RideShareX is a ride-sharing app that connects riders with drivers, allowing use
 ### [BONUS] Interactive Prototype
 ![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHFnMjM5bGtjMGxybDE2NXZtMDNmYWMyemtjNW83ZTdyYndvdTQ1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UkZUSAr59Z6jKlGeEN/giphy.gif)
 
+###Build Progress Gif
+
+<div>
+    <a href="https://www.loom.com/share/07dae6c015fe431c97756013d24d10b6">
+    </a>
+    <a href="https://www.loom.com/share/07dae6c015fe431c97756013d24d10b6">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/07dae6c015fe431c97756013d24d10b6-with-play.gif">
+    </a>
+  </div>
+
+
+
+
+
+
+
+
 ## Schema 
 
 [This section will be completed in Unit 9]
