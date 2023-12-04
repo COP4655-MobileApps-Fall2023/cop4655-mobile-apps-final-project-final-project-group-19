@@ -40,7 +40,7 @@ struct UberMapViewRepresentable: UIViewRepresentable {
         }
             break
         }
-        
+        //commit new line
 //        if mapState == .noInput {
 //            context.coordinator.clearMapViewAndRecenterOnUserLocation()
 //        }
