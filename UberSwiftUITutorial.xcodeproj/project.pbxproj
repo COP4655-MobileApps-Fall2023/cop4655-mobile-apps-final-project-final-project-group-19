@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7EB9C5E2B1DEA5A0082B9C6 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB9C5D2B1DEA5A0082B9C6 /* MapViewState.swift */; };
 		A7FCD78A2AF83A98005081EF /* UberSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */; };
 		A7FCD78E2AF83A9C005081EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD78D2AF83A9C005081EF /* Assets.xcassets */; };
 		A7FCD7912AF83A9C005081EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FCD7902AF83A9C005081EF /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7EB9C5D2B1DEA5A0082B9C6 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 		A7FCD7862AF83A98005081EF /* UberSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FCD7892AF83A98005081EF /* UberSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		A7FCD78D2AF83A9C005081EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		A7FCD7972AF84515005081EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A7EB9C5D2B1DEA5A0082B9C6 /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				A7FCD7B12AF99852005081EF /* LocationSearchViewModel.swift in Sources */,
 				A7FCD7AD2AF8A451005081EF /* LocationSearchView.swift in Sources */,
 				A7FCD7A32AF85194005081EF /* LocationManager.swift in Sources */,
+				A7EB9C5E2B1DEA5A0082B9C6 /* MapViewState.swift in Sources */,
 				A7FCD7AB2AF8A1F8005081EF /* MapViewActionButton.swift in Sources */,
 				A7FCD7AF2AF8A9BD005081EF /* LocationSearchResultsCell.swift in Sources */,
 				A7FCD78A2AF83A98005081EF /* UberSwiftUITutorialApp.swift in Sources */,
