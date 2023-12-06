@@ -117,10 +117,9 @@ RideShareX is a ride-sharing app that connects riders with drivers, allowing use
   </div>
 
 
+### DEMO - FINAL PRODUCT 
 
-
-
-
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGgxdndqNDFpZ3VoZXE1dGE1MjFuMmk3NGpwcHF2N2d2czB1djU1ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LRdtORkv6MtLuAnjfU/giphy.gif)
 
 
 ## Schema 
